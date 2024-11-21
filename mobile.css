@@ -1,0 +1,280 @@
+@media screen and (max-width:600px)
+{
+    /* BANNER E MENU --------------------*/
+
+    h1
+    {
+        font-size: 100px;
+    }
+
+    .titulo-seçao
+    {
+        font-size: 25px;
+    }
+
+    .button 
+    {
+        align-content: center;
+    }
+
+    /* ASPECTOS ------------------------- */
+    
+    .seçao-aspectos
+    {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .imgCircular
+    {
+        width: 100%;
+    }
+
+    .miniblocos
+    {
+        width: 100%;
+    }
+
+    .titulo-flex
+    {
+        justify-content: center;
+    }
+
+    .titulo-flex h2
+    {
+        font-size: 19px;
+    }
+
+    .box
+    {
+        width: 100%;
+    }
+
+    /* CARACTERISTICAS GERAIS -------------------- */
+
+    .caixa-carac
+    {
+        padding: 20px;
+        gap: 30px;
+    }
+
+    .caixa-carac h1
+    {
+        margin-bottom: 0px;
+    }
+
+    .linha-conteudo
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .linha-conteudo img
+    {
+        width: 100%;
+    }
+
+    #responsivo
+    {
+        flex-direction: column-reverse;
+    }
+
+    .area-texto
+    {
+        width: 100%;
+    }
+
+    .area-texto h2
+    {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* PAGINA FAUNA E FLORA -------------------------------------- */
+    /* FAUNA----------------------*/
+
+    .linha-fauna
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .caixa-animal
+    {
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    /* FLORA ------------------------- */
+
+    .caixa-flora
+    {
+        flex-direction: column;
+    }
+
+    .caixa-flora img
+    {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    #flex-reverse
+    {
+        flex-direction: column;
+    }
+
+    #flex-reverse img
+    {
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .container-endemicos p 
+    {
+        padding: 30px;
+    }
+
+    /* COMO AJUDAR ------------------------------------- */
+
+    .decadas
+    {
+        background-color: #c69c6d;
+        background-image: none;
+    }
+
+    .linha-graficos
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .dec_descrição_bioma
+    {
+        width: 100%;
+    }
+
+    .grade-ajuda > div
+    {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .como-ajudar h2
+    {
+        text-align: center;
+    }
+
+    .conteudo-ajuda > p
+    {
+        text-align: center;
+    }
+
+    .grade-ajuda > img
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:1024px)
+{
+    /* INDEX ----------------------------------*/
+
+    h1
+    {
+        font-size: 115px;
+    }
+
+    .miniblocos { width: 100%; }
+
+    .imgCircular { display: none; }
+
+    /* AREA DE CARACTERISTICAS GERAIS --------------- */
+
+    .caixa-carac
+    {
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .caixa-carac h1
+    {
+        margin-bottom: 0px;
+    }
+    
+    #responsivo
+    {
+        flex-direction: column-reverse;
+    }
+
+    .linha-conteudo
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .linha-conteudo img 
+    {
+        width: 100%;
+    }
+
+    .area-texto
+    {
+        width: 100%;
+    }
+
+    .area-texto h2
+    {
+        font-size: 25px;
+    }
+
+    /*PAGINA FAUNA E FLORA -----------------------*/
+  
+    .linha-fauna
+    {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .caixa-animal
+    {
+        width: 48%;
+    }
+
+    /* PAGINA COMO AJUDAR ------------------- */
+
+    .linha-graficos
+    {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .dec_descrição_bioma
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .dec_descrição_bioma img
+    {
+        width: 40%;
+    }
+
+    .grade-ajuda
+    {
+        flex-direction: column-reverse;
+    }
+
+    .grade-ajuda > div
+    {
+        width: 100%;
+    }
+
+    .grade-ajuda img
+    {
+        display: none;
+    }
+
+}
